@@ -1,0 +1,73 @@
+html
+{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+    min-height: 100%;
+}
+
+body
+{
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+    font-family: 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'ＭＳ ゴシック', 'MS Gothic', HiraKakuProN-W3, 'TakaoExゴシック', TakaoExGothic, 'MotoyaLCedar', 'Droid Sans Japanese', monospace;
+    font-size: 16px;
+}
+
+.header
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-min-width: 0;
+    -ms-min-width: 0;
+    -o-min-width: 0;
+    -webkit-min-width: 0;
+    min-width: 0;
+    height: 40px;
+    width: 100%;
+    padding-left: 15px;
+    text-align: center;
+    background-color: #1478ce;
+}
+
+    .header span
+    {
+        font-weight: bold;
+        color: white;
+        font-size: 14px;
+        white-space: nowrap;
+        line-height: 40px;
+    }
+
+.main-contents
+{
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-min-width: 0;
+    -ms-min-width: 0;
+    -o-min-width: 0;
+    -webkit-min-width: 0;
+    min-width: 0;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.comment
+{
+    margin-top: 10px;
+}
+
+.navigate
+{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
