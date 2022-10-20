@@ -1,49 +1,37 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
+ <html>
+   <head>
+     <meta charset="utf-8" />
+     <title>firefox</title>
+     <link rel="stylesheet" href="page1/style.css" />
+   </head>
+   <body>
+     <h1>日本大学文理学部 演習課題2 5421050 小出朋希</h1>
+     <img
+       src="images/character_program_smart.png"
+       alt="The irasutoya logo: a flaming fox surrounding the Earth."
+     />
 
-    <title>Number guessing game</title>
+     <p>At Mozilla, we’re a global community of</p>
 
-    <style>
-      html {
-        font-family: sans-serif;
-      }
+     <ul>
+       <!-- changed to list in the tutorial -->
+       <li>technologists</li>
+       <li>thinkers</li>
+       <li>builders</li>
+     </ul>
 
-      body {
-        width: 50%;
-        max-width: 800px;
-        min-width: 480px;
-        margin: 0 auto;
-      }
-      
-      .form input[type="number"] {
-        width: 200px;
-      }
+     <p>
+     </p>
 
-      .lastResult {
-        color: white;
-        padding: 3px;
-      }
-    </style>
-  </head>
-
-  <body>
-    <h1>Number guessing game</h1>
-
-    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
-
-    <div class="form">
-      <label for="guessField">Enter a guess: </label>
-      <input type="number" min="1" max="100" required id="guessField" class="guessField">
-      <input type="submit" value="Submit guess" class="guessSubmit">
-    </div>
-
-    <div class="resultParas">
-      <p class="guesses"></p>
-      <p class="lastResult"></p>
-      <p class="lowOrHi"></p>
-    </div>
-    <script src = "script.js"></script>
-  </body>
-</html>
+     <p>
+       Read the
+       <a href="http://abehiroshi.la.coocan.jp"
+         >Mozilla Manifesto</a
+       >
+       to learn even more about the values and principles that guide the pursuit
+       of our mission.
+     </p>
+     <script src="scripts/main.js"></script>
+   </body>
+ </html>
