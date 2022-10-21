@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    text-align: center;
+}
+ 
+p {
+    width: 50%;
+    background-color: #03A9F4;
+    padding: 5px 180px;
+}
+
+
+html {
+    background-color: #a8e4ff;
+}
+ 
+body {
+    background-color: #fff;
+    padding: 30px 30px 30px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+ 
+img {
+    height: 30px;
+    vertical-align: top;
+}
